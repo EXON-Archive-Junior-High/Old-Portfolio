@@ -1,0 +1,62 @@
+@import "reset.css";
+
+body {
+    background-color:#F6F9FC;
+    font-family: "Segoe UI";
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.top{
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.main{
+    width: 100%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 5px 10px rgba(50, 50, 93, 0.11), 0 1px 20px rgba(110, 110, 110, 0.8);
+}
+
+.card{
+    margin-top: 20px;
+    width: 1200px;
+    height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(50, 50, 93, 0.11), 0 1px 20px rgba(110, 110, 110, 0.8);
+
+}
+
+.main-text{
+    margin-top: 200px;
+    margin-left: 90px;
+}
+
+
+.card-main-text{
+    margin-top: 30px;
+    margin-left: -1000px;
+}
+
+
+.content-text{
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.main-lang{
+    margin-top: 5px;
+    margin-left: 90px;
+}
+
+.lang{
+    margin-top: 5px;
+}
+
+.big{
+    font-size: 60px;
+}
