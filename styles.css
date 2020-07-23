@@ -22,9 +22,20 @@ body {
 }
 
 .card{
+
     margin-top: 20px;
-    width: 1200px;
+    width: 300px;
     height: 300px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 5px rgba(110, 110, 110, 0.8);
+
+}
+
+.lang-card{
+    margin-top: 20px;
+    width: 100px;
+    height: 35px;
     background-color: white;
     border-radius: 15px;
     box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 5px rgba(110, 110, 110, 0.8);
@@ -54,6 +65,7 @@ body {
 }
 
 
+
 .content-text{
     margin-top: 5px;
     margin-left: 90px;
@@ -76,6 +88,13 @@ body {
     margin-top: 20px;
     margin-left: 20px;
     font-size: 40px;
+}
+
+.lang-text{
+    margin-top: 7px;
+    font-size: 20px;
+    margin-left: 40%;
+
 }
 
 a {
