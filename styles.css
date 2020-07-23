@@ -16,7 +16,8 @@ body {
 }
 
 .card{
-
+    float: left;
+    margin-left: 30px;
     margin-top: 20px;
     width: 300px;
     height: 300px;
@@ -77,7 +78,7 @@ body {
 }
 
 .big{
-    font-size: 60px;
+    font-size: 40px;
 }
 
 .small{
