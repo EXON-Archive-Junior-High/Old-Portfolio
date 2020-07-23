@@ -106,6 +106,27 @@ body {
     height: 30px;
 }
 
+.project-text{
+    margin-top: 7px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.project-content{
+    margin-top: 7px;
+    font-size: 15px;
+    text-align: center;
+    line-height: initial;
+    display:block;
+}
+
+.project-github{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 35px;
+}
+
 /*
 화살표 출처: http://rwdb.kr/css_scroll_icon/
 */
