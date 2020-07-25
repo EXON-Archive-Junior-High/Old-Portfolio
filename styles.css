@@ -27,7 +27,7 @@ body {
     height: 300px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 5px rgba(110, 110, 110, 0.8);
+    box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(110, 110, 110, 0.8);
 
 }
 
@@ -39,7 +39,7 @@ body {
     height: 35px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 5px rgba(110, 110, 110, 0.8);
+    box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(110, 110, 110, 0.8);
 
 }
 
