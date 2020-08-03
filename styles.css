@@ -24,9 +24,10 @@ body {
     margin-left: 30px;
     margin-top: 20px;
     width: 300px;
-    height: 300px;
+    height: 330px;
     border-radius: 15px;
     background-color: white;
+    text-align: center;
 } 
 
 .lang-card{
@@ -50,6 +51,19 @@ body {
     left: 50%; 
     color: white;
     
+}
+
+.bottom{
+    position: relative;
+    height: 200px;
+    width: 50%;
+}
+
+
+.bottom-text{
+    position:absolute;
+    right:0px; 
+    bottom:0px
 }
 
 
@@ -94,9 +108,6 @@ body {
     margin-left: 10px;
     font-size: 20px;
     text-align: left;
-
-
-
 }
 
 .lang-content{
@@ -115,7 +126,6 @@ body {
 }
 
 .project-text{
-    margin-top: 50px;
     font-size: 30px;
 }
 
@@ -124,13 +134,17 @@ body {
     font-size: 15px;
     line-height: initial;
     display:block;
+
 }
 
 .project-github{
-    float: left;
-    margin-top: 0px;
-    margin-right: 10px;
+    float: right;
+    margin-top: 10px;
     height: 35px;
+}
+
+.project-img{
+    margin-top: 10px;
 }
 
 progress {
