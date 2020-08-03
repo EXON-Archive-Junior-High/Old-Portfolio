@@ -25,11 +25,7 @@ body {
     margin-top: 20px;
     width: 300px;
     height: 300px;
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(110, 110, 110, 0.8);
-
-}
+} 
 
 .lang-card{
     float: right;
@@ -39,7 +35,6 @@ body {
     height: 35px;
     background-color: white;
     border-radius: 15px;
-    box-shadow: 0 5px 5px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(110, 110, 110, 0.8);
 
 }
 
@@ -94,8 +89,9 @@ body {
 
 .lang-text{
     margin-top: 7px;
+    margin-left: 10px;
     font-size: 20px;
-    text-align: center;
+    text-align: left;
 
 }
 
@@ -109,23 +105,28 @@ body {
 .project-text{
     margin-top: 50px;
     font-size: 30px;
-    text-align: center;
 }
 
 .project-content{
     margin-top: 7px;
     font-size: 15px;
-    text-align: center;
     line-height: initial;
     display:block;
 }
 
 .project-github{
-    float: right;
-    margin-top: 10px;
+    float: left;
+    margin-top: 0px;
     margin-right: 10px;
     height: 35px;
 }
+
+progress {
+    height: 20px;
+    width: 80px;
+
+}
+
 
 /*
 화살표 출처: http://rwdb.kr/css_scroll_icon/
