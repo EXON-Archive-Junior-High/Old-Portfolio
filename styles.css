@@ -25,14 +25,16 @@ body {
     margin-top: 20px;
     width: 300px;
     height: 300px;
+    border-radius: 15px;
+    background-color: white;
 } 
 
 .lang-card{
-    float: right;
+    float: left;
     margin-top: 20px;
     margin-left: 10px;
     width: 130px;
-    height: 35px;
+    height: 60px;
     background-color: white;
     border-radius: 15px;
 
@@ -93,6 +95,16 @@ body {
     font-size: 20px;
     text-align: left;
 
+
+
+}
+
+.lang-content{
+    margin-top: -4px;
+    margin-left: 10px;
+    font-size: 13px;
+    text-align: left;
+
 }
 
 .lang-img{
@@ -124,6 +136,7 @@ body {
 progress {
     height: 20px;
     width: 80px;
+    margin-left: 10px;
 
 }
 
