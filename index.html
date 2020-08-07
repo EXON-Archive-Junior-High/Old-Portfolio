@@ -10,117 +10,189 @@
         <meta name="theme-color" content="#000000">
         <meta name="og:site_name" content="흐름대로,">
         <meta property="og:image" content="https://raw.githubusercontent.com/1-EXON/Web/master/images/view.png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/1.0.0-alpha4/mdb.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap" rel="stylesheet"> 
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
         <meta name="description" content="학생 개발자 엑슨의 사이트">
     </head>
     <body>
-
         <div class="main">
-            <img class="main-img" height="30%" src="images/exon.png">
-            <h2 class="main-text">프로그래밍을 좋아하는 학생 개발자입니다.</h2>
+            <img class="main-img animate__animated animate__flipInX" height="30%" src="images/exon.png">
+            <h2 class="main-text animate__animated animate__backInUp">프로그래밍을 좋아하는 학생 개발자입니다.</h2>
             <!-- <img class="github-white" src="images/github-white.svg" height="10px"> -->
             <a>
                 <span class="arrow"></span>
             </a>
         </div>
         
-        <div clas="info">
-            <h2 class="title-main-text big">Info</h2>
-            <h3 class="info-text">평범하고 프로그래밍과 디자인을 좋아하고 있는 학생 개발자 엑슨입니다!</h3>
-        </div>
-    
-
-
-        <div class="lang-cards">
-            <h2 class="title-main-text big">Skill</h2>
-
-            <div class="lang-card">
-                <h3 class="lang-text">C#</h3>
-                <progress value="90" max="100">
-                    <strong>숙련도</strong>
-                </progress>
-                <h3 class="lang-content">90%</h3>
-            </div>
-
-            <div class="lang-card">
-                <h3 class="lang-text">C</h3>
-                <progress value="70" max="100">
-                    <strong>숙련도</strong>
-                </progress>
-                <h3 class="lang-content">70%</h3>
-            </div>
-
-            
-            <div class="lang-card">
-                <h3 class="lang-text">Python</h3>
-                <progress value="60" max="100">
-                    <strong>숙련도</strong>
-                </progress>
-                <h3 class="lang-content">60%</h3>
-            </div>
-
-            <div class="lang-card">
-                <h3 class="lang-text">HTML, CSS</h3>
-                <progress value="60" max="100">
-                    <strong>숙련도</strong>
-                </progress>
-                <h3 class="lang-content">60%</h3>
-            </div>
-
-            <div class="lang-card">
-                <h3 class="lang-text">JS</h3>
-                <progress value="50" max="100">
-                    <strong>숙련도</strong>
-                </progress>
-                <h3 class="lang-content">50%</h3>
+        <div class="container mb-5">
+            <div class="info text-center">
+                <h2 class="title-main-text big">Info</h2>
+                <h3 class="info-text">프로그래밍과 디자인을 좋아하고 있는 학생 개발자 엑슨입니다!</h3>
             </div>
     
-            <div class="lang-card">
-                <h3 class="lang-text">MySQL</h3>
-                <progress value="40" max="100">
-                    <strong>숙련도</strong>
-                </progress>
-                <h3 class="lang-content">40%</h3>
-            </div>
+            <h2 class="title-main-text big mt-5">Skills</h2>
+            <div class="row">
+                <div class="col-xl col-lg-3 col-md-3 col-sm-5">
+                    <div class="card hover-shadow h-100 w-100 m-0">
+                        <div class="card-body">
+                            <h5 class="card-title">C#</h5>
+                            <p class="card-text">
+                                <div class="progress" style="height: 20px;">
+                                    <div
+                                      class="progress-bar bg-success"
+                                      role="progressbar"
+                                      style="width: 90%;"
+                                    >90%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl col-lg-3 col-md-3 col-sm-5">
+                    <div class="card hover-shadow h-100 w-100 m-0">
+                        <div class="card-body">
+                            <h5 class="card-title">C</h5>
+                            <p class="card-text">
+                                <div class="progress" style="height: 20px;">
+                                    <div
+                                      class="progress-bar bg-primary"
+                                      role="progressbar"
+                                      style="width: 70%;"
+                                    >70%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl col-lg-3 col-md-3 col-sm-5">
+                    <div class="card hover-shadow h-100 w-100 m-0">
+                        <div class="card-body">
+                            <h5 class="card-title">Python</h5>
+                            <p class="card-text">
+                                <div class="progress" style="height: 20px;">
+                                    <div
+                                      class="progress-bar bg-info"
+                                      role="progressbar"
+                                      style="width: 60%;"
+                                    >60%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl col-lg-3 col-md-3 col-sm-5">
+                    <div class="card hover-shadow h-100 w-100 m-0">
+                        <div class="card-body">
+                            <h5 class="card-title">HTML, CSS</h5>
+                            <p class="card-text">
+                                <div class="progress" style="height: 20px;">
+                                    <div
+                                      class="progress-bar bg-info"
+                                      role="progressbar"
+                                      style="width: 60%;"
+                                    >60%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl col-lg-3 col-md-3 col-sm-5">
+                    <div class="card hover-shadow h-100 w-100 m-0">
+                        <div class="card-body">
+                            <h5 class="card-title">JS</h5>
+                            <p class="card-text">
+                                <div class="progress" style="height: 20px;">
+                                    <div
+                                      class="progress-bar bg-info"
+                                      role="progressbar"
+                                      style="width: 50%;"
+                                    >50%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-xl col-lg-3 col-md-3 col-sm-5">
+                    <div class="card hover-shadow h-100 w-100 m-0">
+                        <div class="card-body">
+                            <h5 class="card-title">MySQL</h5>
+                            <p class="card-text">
+                                <div class="progress" style="height: 20px;">
+                                    <div
+                                      class="progress-bar bg-warning"
+                                      role="progressbar"
+                                      style="width: 40%;"
+                                    >40%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                                
+                <div class="col-xl col-lg-3 col-md-3 col-sm-5">
+                    <div class="card hover-shadow h-100 w-100 m-0">
+                        <div class="card-body">
+                            <h5 class="card-title">Kotlin</h5>
+                            <p class="card-text">
+                                <div class="progress" style="height: 20px;">
+                                    <div
+                                      class="progress-bar bg-warning"
+                                      role="progressbar"
+                                      style="width: 40%;"
+                                    >40%</div>
+                                </div>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>    
+    
+            <div class="project-cards">
+                <h2 class="title-main-text big mt-5">Project</h2>
 
-            <div class="lang-card">
-                <h3 class="lang-text">Kotlin</h3>
-                <progress value="40" max="100">
-                    <strong>숙련도</strong>
-                </progress>
-                <h3 class="lang-content">40%</h3>
+                <div class="d-flex justify-content-center">
+                    <div class="col-3 p-1">
+                        <div class="card hover-shadow h-100 w-100 m-0">
+                            <img src="/images/ComInlogo.ico" class="p-4 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">Easycord</h5>
+                                <p class="card-text">
+                                    디스코드의 웹훅, RPC 같은 기능들을 쉽게 쓰게 해주는 프로그램
+                                    <br />
+                                    <a href="https://github.com/1-EXON/EasyCord" type="button" class="btn btn-dark btn-floating">
+                                        <i class="fab fa-github fa-lg"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-3 p-1">
+                        <div class="card hover-shadow h-100 w-100 m-0">
+                            <img src="/images/ComInlogo.ico" class="p-4 card-img-top">
+                            <div class="card-body">
+                                <h5 class="card-title">ComIn</h5>
+                                <p class="card-text">
+                                    컴퓨터 사양 특정 프로그램
+                                    <br />
+                                    <a href="https://github.com/1-EXON/ComIn" type="button" class="btn btn-dark btn-floating">
+                                        <i class="fab fa-github fa-lg"></i>
+                                    </a>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-
         </div>
 
-
-        <div class="project-cards">
-            <h2 class="title-main-text big">Project</h2>
-            
-            <div class="card">
-                <h3 class="project-text">Easycord</h3>
-                <h3 class="project-content">디스코드의 웹훅, RPC 같은 기능들을 <br>쉽게 쓰게 해주는 프로그램</h3>
-                <img onclick="javascript:newin=window.open('about:blank');
-                newin.location.href='https://github.com/1-EXON/EasyCord';"
-                style="cursor: pointer;;" class="project-github" src="images/github-brands.svg">
-            </div>
-
-            <div class="card">
-                <img class="project-img" src="images/ComInlogo.ico" height="200px">
-                <h3 class="project-text">ComIn</h3>
-                <h3 class="project-content">컴퓨터 사양 특정 프로그램</h3>
-                <img onclick="javascript:newin=window.open('about:blank');
-                newin.location.href='https://github.com/1-EXON/ComIn';"
-                style="cursor: pointer;;" class="project-github" src="images/github-brands.svg">
-            </div>
-
-        </div>
-
-        <div class="bottom">
-            <dic class="bottom-text"></div>
-        </div>
-
-
-        <script src="app.js"></script>
-        <script src="https://kit.fontawesome.com/b196c7806e.js" crossorigin="anonymous"></script>
+        <script src="https://kit.fontawesome.com/1213a7cbad.js" crossorigin="anonymous"></script>
     </body>
 </html>

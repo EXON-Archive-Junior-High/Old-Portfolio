@@ -1,11 +1,11 @@
 @import "reset.css";
 
-body {
-    background-color:#F6F9FC;
-    font-family: "Segoe UI";
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+* {
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+
+.fab {
+    font-family: "Font Awesome 5 Brands" !important;
 }
 
 .main{
@@ -19,28 +19,6 @@ body {
     justify-content: center;
 }
 
-.card{
-    float: left;
-    margin-left: 30px;
-    margin-top: 20px;
-    width: 300px;
-    height: 330px;
-    border-radius: 15px;
-    background-color: white;
-    text-align: center;
-} 
-
-.lang-card{
-    float: left;
-    margin-top: 20px;
-    margin-left: 10px;
-    width: 130px;
-    height: 60px;
-    background-color: white;
-    border-radius: 15px;
-
-}
-
 .main-text{
     text-align: center; 
     color: white;
@@ -52,114 +30,13 @@ body {
     color: white;
     
 }
-
-.bottom{
-    position: relative;
-    height: 200px;
-    width: 50%;
-}
-
-
-.bottom-text{
-    position:absolute;
-    right:0px; 
-    bottom:0px
-}
-
-
 .title-main-text{
     margin-top: 30px;
     text-align: center; 
 }
 
-
-
-.content-text{
-    margin-top: 5px;
-    margin-left: 90px;
-}
-
-.main-lang{
-    margin-top: 5px;
-    margin-left: 90px;
-}
-
-.lang{
-    margin-top: 5px;
-}
-
 .big{
     font-size: 40px;
-}
-
-.small{
-    font-size: 15px;
-}
-
-
-.card-main-text{
-    margin-top: 20px;
-    margin-left: 20px;
-    font-size: 40px;
-}
-
-.lang-text{
-    margin-top: 7px;
-    margin-left: 10px;
-    font-size: 20px;
-    text-align: left;
-}
-
-.lang-content{
-    margin-top: -4px;
-    margin-left: 10px;
-    font-size: 13px;
-    text-align: left;
-
-}
-
-.lang-img{
-    float: left;
-    margin-top: 2px;
-    margin-left: 10px;
-    height: 30px;
-}
-
-.project-text{
-    font-size: 30px;
-}
-
-.project-content{
-    margin-top: 7px;
-    font-size: 15px;
-    line-height: initial;
-    display:block;
-
-}
-
-.project-github{
-    float: right;
-    margin-top: 10px;
-    height: 35px;
-}
-
-.project-img{
-    margin-top: 10px;
-}
-
-progress {
-    height: 20px;
-    width: 80px;
-    margin-left: 10px;
-
-}
-
-.github-white{
-    fill: white;
-}
-
-.info-text {
-    margin-top: 10px;
 }
 
 
