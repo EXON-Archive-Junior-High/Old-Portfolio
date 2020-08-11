@@ -19,6 +19,10 @@
     justify-content: center;
 }
 
+.link {
+    display: inline-block;
+}
+
 .main-text{
     text-align: center; 
     color: white;
@@ -46,6 +50,8 @@
 .big{
     font-size: 20px;
 }
+
+
 
 
 /*
