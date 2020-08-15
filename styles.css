@@ -19,6 +19,9 @@
     justify-content: center;
 }
 
+.download {
+    padding-top: 10px;
+}
 .link {
     display: inline-block;
 }
