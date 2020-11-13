@@ -19,6 +19,10 @@
     justify-content: center;
 }
 
+enter {
+    margin-bottom: 1em;
+}
+
 .download {
     padding-top: 10px;
 }
