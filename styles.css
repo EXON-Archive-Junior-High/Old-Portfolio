@@ -4,8 +4,20 @@
     font-family: 'Noto Sans KR', sans-serif !important;
 }
 
+body {
+    background-color: #ECEFF4 !important;
+}
+
 .fab {
     font-family: "Font Awesome 5 Brands" !important;
+}
+
+h2 {
+    font-size: 10px;
+}
+
+h3 {
+    font-size: 15px;
 }
 
 .main{
@@ -40,10 +52,10 @@ enter {
 .card-title {
     font-size: 15px;
 }
+
 .main-img{
     left: 50%; 
     color: white;
-    
 }
 
 .info-text {
