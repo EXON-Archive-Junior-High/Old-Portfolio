@@ -4,16 +4,29 @@
 
 body {
     margin: 0;
-    font-family: 'Pretendard';
-    background-color: #2E3440;
-    color: #D8DEE9;
+    font-family: 'D2Coding';
+    background-color: #282C34;
+    color: #9FB2BF;
+}
+
+#pink { color: #C678DD; }
+#red { color: #C24034; }
+#blue { color: #3282E4; }
+#green { color: #44B6BB; }
+#yellow { color: #E5C07B; }
+
+#tap { white-space: pre; }
+
+#bg {
+    background-image: url(./images/bg.png);
+    animation: backgroundScroll 10s;
 }
 
 @keyframes backgroundScroll {
-    from {
-        background-position: top left;
-    }
-    to {
-        background-position: bottom right;
-    }
+  from {
+    background-position: top left;
+  }
+  to {
+    background-position: bottom right;
+  }
 }
