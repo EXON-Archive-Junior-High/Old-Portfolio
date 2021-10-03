@@ -2,11 +2,11 @@ import React from 'react'
 
 function App() {
     return (
-       
-       <div>
-           <h1 className="bg-black">Hi, My name is EXON</h1>
-           <button className="shadow-2xl">Hi</button>
-       </div>
+        <div className="m-5">
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#HashTag</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#HashTag</span>
+            <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2">#HashTag</span>
+        </div>
     )
 }
 
