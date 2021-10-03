@@ -1,8 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 body {
     margin: 0;
     font-family: 'Pretendard';
+    background-color: #2E3440;
+    color: #D8DEE9;
 }
 
-code {
-    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+#a {
+    background: url(./images/bg.png) no-rpeat 0 0;
+    background-clip: text;
+    -webkit-background-clip: text;
+}
+
+@keyframes backgroundScroll {
+    from {
+        background-position: top left;
+    }
+    to {
+        background-position: bottom right;
+    }
 }
