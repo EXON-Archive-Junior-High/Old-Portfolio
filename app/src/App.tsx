@@ -1,7 +1,11 @@
 /* eslint-disable jsx-a11y/alt-text */
-import React from 'react'
+import React, { useEffect } from 'react'
 
 function App() {
+    useEffect(() => {
+        document.title = 'EXON'
+    })
+
     return (
         <div>
             <div className="fixed container ml-10 mt-10 max-w-7xl h-screen flex flex-col items-start mx-auto px-4 md:px-12">
