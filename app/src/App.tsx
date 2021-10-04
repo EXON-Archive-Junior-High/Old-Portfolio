@@ -15,7 +15,7 @@ function App() {
                 <div className="container m-10">
                     <div>
                         <h1 className="text-4xl font-extralight"><span id="pink">import</span> <span id="red">EXON</span>;</h1>
-                        <p className="text-2xl font-light"><span id="pink">let</span> Student Developer<span id="green">:</span><span id="yellow"> UNCOMMON</span>;</p>
+                        <p className="text-2xl font-light"><span id="pink">let</span> StudentDeveloper<span id="green">:</span><span id="yellow"> UNCOMMON</span>;</p>
                     </div>
                     <div className="container mt-10">
                         <h1 className="text-4xl font-extralight"><span id="pink">class</span> <span id="yellow">Skills</span> &#123;</h1>
@@ -37,8 +37,14 @@ function App() {
             <div className='max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
                 <div className="container m-10 ">
                     <div>
-                        <h1 className="text-4xl font-extralight"><span id="pink">안평범한</span> 바보개발자 <span id="red">엑슨</span>입니다</h1>
-                        <p className="text-2xl font-light"><span id="pink">let</span> Hello<span id="green">:</span><span id="yellow"> UNCOMMON</span>;</p>
+                        <h1 className="text-4xl font-extralight">I'm<span id="yellow"> UNCOMMON</span> Stupid Student Developer <span id="red">EXON</span></h1>
+                        <p className="mt-1 text-2xl font-light"><li id="green">I LOVE Progamming & Design</li></p>
+                        <p className="mt-1 text-2xl font-light"><li id="green"></li></p>
+                    </div>
+                </div>
+                <div className="container m-10 ">
+                    <div>
+                        
                     </div>
                 </div>
             </div>
