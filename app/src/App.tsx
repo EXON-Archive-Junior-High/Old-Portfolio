@@ -8,14 +8,20 @@ function App() {
                 <div>
                     <img id="logo"></img>
                     <h1 className="text-4xl font-extralight"><span id="pink">import</span> <span id="red">EXON</span>;</h1>
-                    <p className="text-2xl font-light"><span id="pink">let</span> <span id="red">Student Developer</span><span id="green">:</span><span id="yellow"> UNCOMMON</span>;</p>
+                    <p className="text-2xl font-light"><span id="pink">let</span> Student Developer<span id="green">:</span><span id="yellow"> UNCOMMON</span>;</p>
                 </div>
                 <div className="container mt-10">
                     <h1 className="text-4xl font-extralight"><span id="pink">class</span> <span id="yellow">Skills</span> &#123;</h1>
-                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>Typescript <span id="green">=</span> <span id="orange">70%</span></p>
-                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>Javascript <span id="green">=</span> <span id="orange">80%</span></p>
-                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>C# <span id="green">=</span> <span id="orange">60%</span></p>
-                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>C, C++ <span id="green">=</span> <span id="orange">60%</span></p>
+                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>Typescript <span id="green">=</span> <span id="orange">70%</span>;</p>
+                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>Javascript <span id="green">=</span> <span id="orange">70%</span>;</p>
+                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>C# <span id="green">=</span> <span id="orange">60%</span>;</p>
+                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>C, C++ <span id="green">=</span> <span id="orange">60%</span>;</p>
+                    <h1 className="text-4xl font-extralight">&#125;</h1>
+                </div>
+                <div className="container mt-10">
+                    <h1 className="text-4xl font-extralight"><span id="pink">class</span> <span id="yellow">Project</span> &#123;</h1>
+                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>GameWatcherBot<span id="green">:</span><span id="yellow"> DiscordBot</span> <span id="green">=</span> <span id="lightgreen">"Send message when your friends are gaming"</span>;</p>
+                    <p id="tap" className="text-2xl font-light">&#9;&#9;<span id="pink">static </span>Desolved<span id="green">:</span><span id="yellow"> DiscordBot</span> <span id="green">=</span> <span id="lightgreen">"Show information about PS-Web like solved.ac, codeforces"</span>;</p>
                     <h1 className="text-4xl font-extralight">&#125;</h1>
                 </div>
             </div>
