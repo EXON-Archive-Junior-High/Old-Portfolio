@@ -15,7 +15,7 @@ function App() {
                 <div className="container m-10">
                     <div>
                         <h1 className="text-4xl font-extralight"><span id="pink">import</span> <span id="red">EXON</span>;</h1>
-                        <p className="text-2xl font-light"><span id="pink">let</span> StudentDeveloper<span id="green">:</span><span id="yellow"> UNCOMMON</span>;</p>
+                        <p className="text-2xl font-light"><span id="pink">let</span> Student_Developer<span id="green">:</span><span id="yellow"> UNCOMMON</span>;</p>
                     </div>
                     <div className="container mt-10">
                         <h1 className="text-4xl font-extralight"><span id="pink">class</span> <span id="yellow">Skills</span> &#123;</h1>
@@ -37,14 +37,24 @@ function App() {
             <div className='max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
                 <div className="container m-10 ">
                     <div>
-                        <h1 className="text-4xl font-extralight">I'm<span id="yellow"> UNCOMMON</span> Stupid Student Developer <span id="red">EXON</span></h1>
-                        <p className="mt-1 text-2xl font-light"><li id="green">I LOVE Progamming & Design</li></p>
-                        <p className="mt-1 text-2xl font-light"><li id="green"></li></p>
+                        <h1 className="text-4xl font-extralight">I'm<span id=""> UNCOMMON</span> Student Developer <b><span id="pink">EXON</span></b></h1>
+                        <p className="mt-1 text-2xl font-light"><li id="">I LOVE Progamming & Design</li></p>
                     </div>
                 </div>
+            </div>
+            <div className='max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
                 <div className="container m-10 ">
                     <div>
-                        
+                        <h1 className="text-4xl font-extralight"><b><span id="pink">Skills</span></b></h1>
+                        <p className="mt-1 text-2xl font-light"><li id=""></li></p>
+                    </div>
+                </div>
+            </div>
+            <div className='max-w-7xl h-screen flex flex-col items-start justify-center mx-auto px-4 md:px-12'>
+                <div className="container m-10 ">
+                    <div>
+                        <h1 className="text-4xl font-extralight"><b><span id="pink">Projects</span></b></h1>
+                        <p className="mt-1 text-2xl font-light"><li id=""></li></p>
                     </div>
                 </div>
             </div>
